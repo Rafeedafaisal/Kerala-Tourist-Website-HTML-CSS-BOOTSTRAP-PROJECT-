@@ -1,0 +1,46 @@
+h1{
+    color: green; 
+ font-family: "arial";
+ font-size: 3em;
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+}
+#aa{
+    color: green;
+    font-weight: bolder;
+    text-decoration:none;
+}
+#p1{
+    font-size: 20px;
+}
+#im1{
+    /* border: 10px solid white; */
+    border-right: 10px solid white;
+     height: 200px;
+    /* width: 300px; */ 
+}
+h5{
+    color: green;
+}
+h4{
+    color: green;
+}
+.card{
+    border: 1px solid green;
+}
+footer{
+    color: green;
+}
+#not{
+    height: 270px;
+}

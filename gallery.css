@@ -1,0 +1,39 @@
+h1{
+    color: green; 
+ font-family:cursive;
+ font-size: 3em;
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+}
+#aa{
+    color: green;
+    font-weight: bolder;
+    text-decoration:none;
+}
+#p1{
+    font-size: 20px;
+}
+.card-deck{
+    background-color: black;
+}
+.card{
+    background-color: green;
+    color: white;
+}
+/* #dd{
+    background-color: black;
+} */
+/* #ker{
+    height: 60px;
+    
+} */

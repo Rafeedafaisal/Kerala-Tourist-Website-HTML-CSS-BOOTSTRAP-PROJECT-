@@ -1,0 +1,43 @@
+/* img{
+    width: 1000px;
+    height: 250px;
+} */
+/* #r1{
+    height: 100px;
+} */
+body{
+    /* background-image: linear-gradient(to top right, lightgreen,white); */
+    background-image: url('https://static9.depositphotos.com/1000487/1207/i/600/depositphotos_12077336-stock-photo-abstract-green-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#r1{
+    height: 50px;
+}
+/* input{
+    opacity: 0.5;
+    color: green;
+    font-weight: bold;
+    text-decoration-color: green;
+} */
+/* button{
+    color: white;
+} */
+button{
+    background-color: green;
+    color: white;
+}
+/* label:hover{
+    background-color: green;
+    opacity: 0.8;
+} */
+#a1{
+    text-decoration: none;
+    color: white;
+}

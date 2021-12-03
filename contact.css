@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box
+}
+#r1{
+    height: 40px;
+}
+
+h1{
+    color: green; 
+ font-family: "arial";
+ font-size: 3em;
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+}
+
+#aa{
+    color: green;
+    font-weight: bolder;
+    text-decoration:none;
+}
+
+/* body {
+    background-color:green;
+} */
+
+/* .container {
+    background-color: white;
+    border-radius: 10px
+} */
+
+h2 {
+    color:green;
+}
+
+
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.icon {
+    color: green
+}
+
+/* .contact:hover {
+    background-color: rgb(166, 240, 163);
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative
+} */
+
+form .container {
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9DGf8U6aNqrZ1yK2rl8wQwBhe58rDIeb5jg&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto
+}
+
+input,
+textarea,
+.form-control {
+    outline: none;
+    border: none
+}
+
+.input-field {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px
+}
+
+.input-field:hover {
+    border: 2px solid green;
+    color: green;
+    cursor: pointer
+}
+
+label {
+    font-weight: 500;
+    color: white;
+}
+
+.fa-mobile {
+    font-size: 20px;
+    color: white;
+    
+}
+
+#msg {
+    height: 220px
+}
+
+/* .btn {
+    background-color:green;
+    color: white;
+    opacity: .7;
+    padding: 5px 10px;
+    width: 200px;
+    margin: 10px auto;
+    font-weight: bold;
+   
+} */
+
+.mobile-info {
+    display: none
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    form {
+        width: 75%
+    }
+
+    .container {
+        margin-top: 50px
+    }
+}
+
+@media(max-width:767px) {
+    .mobile-info {
+        display: inline
+    }
+
+    .contact-info {
+        display: none
+    }
+
+    .contact {
+        margin: 10px 0;
+        border: 1px solid green;
+        border-radius: 5px
+    }
+}
+.fa-envelope,.fa-map-marker,.fa-phone{
+    color: green;
+}
+#zz{
+    color: white;
+}
+#pp{
+    color: black;
+}
+footer{
+    color: green;
+}
+body{
+    background-image: url('https://media.istockphoto.com/vectors/green-spring-nature-background-with-leaves-vector-id1159995256?k=20&m=1159995256&s=170667a&w=0&h=Zd3pBDeEHmYAgRhS2hJ-MT6sdGHbdgXVCMYGcJMBpvU=');
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

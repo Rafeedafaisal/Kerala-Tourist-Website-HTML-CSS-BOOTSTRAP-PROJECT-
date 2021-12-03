@@ -1,0 +1,26 @@
+#r1{
+    height: 80px;
+}
+h1{
+    color: green
+}
+body{
+    /* background-image: linear-gradient(to bottom right,rgb(247, 245, 252),rgb(11, 105, 11)); */
+    /* background-color: green; */
+    background-image: url('https://img.freepik.com/free-vector/green-curve-abstract-background_53876-99569.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: green;
+    font-weight: bold;
+    background-position: center;
+}
+#r2{
+    height: 200px;
+}
+#ll{
+    color: white;
+    text-decoration: none;
+}
+/* #ff{
+    border: 1px solid darkg;
+} */
